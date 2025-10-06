@@ -46,4 +46,5 @@ export default function ThemeManager() {
       </div>
     </div>
   )
+
 }
