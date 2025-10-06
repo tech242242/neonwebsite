@@ -1,4 +1,4 @@
-@import "./styles/tailwind.css";
+@import "./tailwind.css";
 
 /* Global body rules to help background cover */
 :root {
@@ -15,4 +15,5 @@ body {
   color: #e6eef8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
