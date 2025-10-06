@@ -2,7 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
 import './index.css'
-import { ThemeProvider } from './context/ThemeContext'
+import { ThemeProvider } from './ThemeContext'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -10,4 +10,5 @@ createRoot(document.getElementById('root')).render(
       <App />
     </ThemeProvider>
   </React.StrictMode>
+
 )
