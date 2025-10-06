@@ -9,16 +9,16 @@ export default function HeroSection() {
           <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8 }}>
             <div className="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-white/6 text-xs">
               <span className="px-2 py-1 rounded-md bg-gradient-to-r from-neon-purple to-neon-pink text-white text-[11px]">NEW</span>
-              <span className="text-slate-300 text-sm">Neon Glass UI • 3D look</span>
+              <span className="text-slate-300 text-sm">Neon Glass UI â€¢ 3D look</span>
             </div>
           </motion.div>
 
           <motion.h1 initial={{ x: -40, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.8 }} className="text-4xl md:text-5xl font-extrabold leading-tight text-white">
-            Studio Pley <span className="bg-clip-text text-transparent bg-gradient-to-r from-neon-purple to-neon-cyan">Studoic</span>
+            Studio Pley <span className="bg-clip-text text-transparent bg-gradient-to-r from-neon-purple to-neon-cyan">Studio</span>
           </motion.h1>
 
           <motion.p initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2, duration: 0.7 }} className="text-slate-300 max-w-xl">
-            Modern neon glassmorphism landing with soft 3D glow. Auto-switching theme backgrounds and animated cards — perfect for a creative agency.
+            Modern neon glassmorphism landing with soft 3D glow. Auto-switching theme backgrounds and animated cards â€” perfect for a creative agency.
           </motion.p>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="flex gap-4">
@@ -58,4 +58,5 @@ export default function HeroSection() {
       </div>
     </section>
   )
+
 }
