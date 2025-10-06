@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { ThemeContext } from '../context/ThemeContext'
+import { ThemeContext } from '../ThemeContext'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function ThemeManager() {
@@ -48,3 +48,4 @@ export default function ThemeManager() {
   )
 
 }
+
